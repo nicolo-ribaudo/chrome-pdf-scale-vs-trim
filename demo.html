@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A4</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 0;
+      }
+      html,
+      body,
+      div {
+        width: 210mm;
+        height: 297mm;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      div {
+        border: 1mm solid black;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <script>
+        for (let i = 0; i < 100; i++) document.write(i + "<br>");
+      </script>
+    </div>
+    <div>
+      <script>
+        for (let i = 0; i < 100; i++) document.write(100 + i + "<br>");
+      </script>
+    </div>
+  </body>
+</html>
